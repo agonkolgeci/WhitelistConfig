@@ -1,0 +1,10 @@
+name: WhitelistConfig
+version: 1.3
+author: Jielos
+main: fr.jielos.whitelistconfig.Main
+
+commands:
+  whitelistconfig:
+    description: Manage your whitelist.
+    aliases:
+    - wlc

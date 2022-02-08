@@ -1,0 +1,8 @@
+# -
+# © WhitelistConfig - 2020
+# Main Configuration file.
+# -
+
+whitelist:
+  enabled: true
+  players: []

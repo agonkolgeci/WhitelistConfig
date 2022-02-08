@@ -1,0 +1,48 @@
+# -
+# © WhitelistConfig - 2020
+# Configuration Messages files
+# -
+
+unknownCommand: '&cUnknown command. Check with /wlc help, and try again.'
+insufficientPermission: '&cYou don''t have permission to do this.'
+syntaxError: '&cSyntax error: {0}'
+
+whitelist:
+  maintenance:
+    message: '&cA maintenance is in progress on the server, impossible to connect.'
+    motd: '&cA maintenance is in progress...{NEXT_LINE}&cPlease wait the end of maintenance.'
+
+  notWhitelisted: '&cYou are not allowed to join the server!{NEXT_LINE}&cPlease contact an administrator!'
+
+command-actions:
+  enable:
+    enabledWhitelist: '&aYou have &lenabled &athe whitelist.'
+    alreadyEnable: '&cError: The whitelist is already enable.'
+
+  disable:
+    disabledWhitelist: '&aYou have &ldisabled &athe whitelist.'
+    alreadyDisable: '&cError: The whitelist is already disable.'
+
+  add:
+    addedPlayer: '&aYou have add &l{0} &ain the configuration.'
+    alreadyAdded: '&cError: &l{0} &cis already in the configuration.'
+
+  remove:
+    removedPlayer: '&aYou have remove &l{0} &afrom the configuration.'
+    playerNotFound: '&cError: &l{0} &cis not in the configuration.'
+
+  reload:
+    reloadConfigs: '&aYou have &lreload &aall configurations of the WhitelistConfig plugin.'
+
+  list:
+    playersList: '&f&lPlayers registered in the configuration:'
+    playersRegistered: '&6&l» &f{0}'
+    nonePlayers: '&cNo players where registered in the configuration.'
+
+commands-descriptions:
+  title: 'Commands availables:'
+  help: 'Show all commands.'
+  enable-disable: 'Enable or disable the whitelist.'
+  add-remove: 'Add or remove a player.'
+  list: 'List players registered in configuration.'
+  reload: 'Reload all configurations.'
